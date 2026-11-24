@@ -1,266 +1,174 @@
-# Awesome-Reverse-Engineering-Binary-Analysis-Agents
-# Awesome-Reverse-Engineering-Binary-Analysis-Agents
+<div align="center">
 
-## Top Reverse Engineering & Binary Analysis Agents Ecosystem
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Reverse-Engineering-Binary-Analysis-Agents"><img src="https://img.shields.io/badge/Curated%20List-Reverse%20Engineering-blue?style=flat-square&logo=shield" alt="Curated List" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Reverse-Engineering-Binary-Analysis-Agents/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Reverse-Engineering-Binary-Analysis-Agents?style=social" alt="Stars" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Reverse-Engineering-Binary-Analysis-Agents/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Reverse-Engineering-Binary-Analysis-Agents?style=social" alt="Forks" /></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+<br/>
+<br/>
 
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Reverse Engineering & Binary Analysis Agents Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+# 🔬 Awesome Reverse Engineering & Binary Analysis Agents 🤖
 
-*Focused on AI-Driven Reverse Engineering, Autonomous Binary Analysis, Decompilers, MCP Servers & Malware Sandboxes*  
+### *Curated Directory of Autonomous Binary Analysis AI Agents, Disassemblers, Neural Decompilers, MCP Servers & Dynamic Sandboxes*
 
-**Last updated: November 2026**
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Reverse-Engineering-Binary-Analysis-Agents/graphs/commit-activity)
 
+**Last updated:** November 2026
 
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Reverse Engineering & Binary Analysis Agents**. These tools combine disassemblers, decompilers, dynamic instrumentation, and Model Context Protocol (MCP) servers with autonomous AI agents to inspect native binaries, firmware, Electron/JS apps, and malware without source code.
-
-
-
-**Examples** include Binary Ninja Cloud, IDA Pro Cloud, Ghidra Server, Cutter Cloud, JEB Decompiler, RevEng.AI, Binarly, VMRay Analyzer, Intezer Analyze, ReversingLabs, and `morluto/rea` (the category leaders). 
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for AI reverse-engineering agents, MCP decompiler bridges, headless binary analysis frameworks, and self-hosted malware sandboxes — ideal for security researchers, vulnerability analysts, CTF players, and malware reverse engineers.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Binary Ninja Cloud](https://binary.ninja)**  
-
-  Browser-based collaborative reverse engineering platform powered by Vector 35's Intermediate Languages (LLIL/MLIL/HLIL) and decompiler.
-
-
-
-- **[IDA Pro & Hex-Rays Cloud](https://hex-rays.com)**  
-
-  Industry-standard commercial disassembler, decompiler, and cloud team collaboration suite for multi-architecture binary analysis.
-
-
-
-- **[JEB Decompiler](https://pnfsoftware.com)**  
-
-  Commercial multi-architecture decompiler and reverse engineering suite specializing in Android Dalvik/APK, WebAssembly, and native binaries.
-
-
-
-- **[RevEng.AI](https://reveng.ai)**  
-
-  AI-powered binary analysis platform using foundation models for binary code similarity, function recovery, and automated vulnerability discovery.
-
-
-
-- **[Binarly](https://binarly.io)**  
-
-  AI-driven firmware and software supply chain security platform detecting hidden vulnerabilities, implants, and cryptographic weaknesses in compiled binaries.
-
-
-
-- **[VMRay Analyzer](https://vmray.com)**  
-
-  Agentless hypervisor-based malware analysis and dynamic threat intelligence sandbox designed to evade anti-VM detection.
-
-
-
-- **[Intezer Analyze](https://intezer.com)**  
-
-  Automated malware triage and genetic code reuse platform mapping binary code fragments to known threat actors and legitimate software.
-
-
-
-- **[ReversingLabs (Spectra Analyze)](https://reversinglabs.com)**  
-
-  High-speed static binary decomposition and software supply chain threat intelligence platform inspecting complex archives and executables.
-
-
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[morluto/rea (Reverse Engineer Anything)](https://github.com/morluto/rea)**  
-
-  Open-source MCP server and CLI toolkit connecting AI coding agents (Claude Code, Codex, Cursor, Gemini CLI) to Ghidra, Hopper, IDA, and runtime inspectors to reverse engineer native binaries, Electron apps, and websites with verifiable evidence.
-
-
-
-- **[Ghidra & Ghidra Server](https://github.com)**  
-
-  Foundational open-source software reverse engineering (SRE) suite and multi-user collaboration server developed by the NSA.
-
-
-
-- **[Rizin & Cutter](https://github.com)**  
-
-  Free, open-source reverse engineering framework and Qt-based GUI powered by Rizin, featuring Ghidra decompiler integration and collaborative workflows.
-
-
-
-- **[Radare2](https://github.com)**  
-
-  Portable, scriptable open-source UNIX-like reverse engineering framework, disassembler, debugger, and binary patching toolkit.
-
-
-
-- **[GhidraMCP](https://github.com)**  
-
-  Open-source Model Context Protocol (MCP) server allowing LLM agents to autonomously decompile functions, rename symbols, and inspect cross-references in Ghidra.
-
-
-
-- **[open-reverselab](https://github.com/LING71671/open-reverselab)**  
-
-  Open-source AI reverse-engineering workspace featuring a desktop app, parallel agent goals, a security knowledge base, and MCP tools for Ghidra, Frida, x64dbg, and Rizin.
-
-
-
-- **[Rev·Deck (AI-Assisted Reverse Engineering)](https://github.com/biniamf/ai-reverse-engineering)**  
-
-  Local, evidence-first open-source static analysis workstation pairing a web UI and LLM copilot with a headless Ghidra service.
-
-
-
-- **[angr](https://github.com)**  
-
-  Open-source Python binary analysis platform combining static and dynamic symbolic ("concolic") execution for automated vulnerability discovery and exploit generation.
-
-
-
-- **[Frida](https://github.com)**  
-
-  Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers to inject JavaScript and Python hooks into running native processes.
-
-
-
-- **[frida-mobile-mcp](https://github.com)**  
-
-  Open-source Mobile Frida MCP server enabling AI agents to perform runtime exploration, hooking, and dynamic analysis on iOS and Android apps.
-
-
-
-- **[dnSpy.MCP](https://github.com)**  
-
-  Open-source MCP server for dnSpyEx enabling AI-assisted .NET assembly decompilation, IL inspection, and automated code analysis.
-
-
-
-- **[windbg-mcp](https://github.com)**  
-
-  Open-source MCP server exposing WinDbg/DbgEng (user-mode, kernel debugging, crash dumps, and Time Travel Debugging) to AI agents.
-
-
-
-- **[CAPA (Mandiant)](https://github.com)**  
-
-  Open-source tool that automatically identifies capabilities in executable files (PE, ELF, .NET, shellcode) using community-curated rules.
-
-
-
-- **[CAPEv2](https://github.com)**  
-
-  Open-source automated malware analysis and configuration extraction sandbox serving as a self-hosted alternative to VMRay and Joe Sandbox.
-
-
-
-- **[Qu1cksc0pe](https://github.com)**  
-
-  All-in-one open-source static malware and binary analysis framework supporting Windows, Linux, macOS, Android APKs, and document payloads.
-
-
-
-- **[Detect It Easy (DIE)](https://github.com)**  
-
-  Open-source programmatic file type, packer, compiler, and protector identification engine for rapid binary triage.
-
-
-
-- **[JADX](https://github.com)**  
-
-  Popular open-source Dex-to-Java decompiler with CLI and GUI interfaces for reverse engineering Android APKs and DEX bytecode.
-
-
-
-- **[ILSpy](https://github.com)**  
-
-  Open-source .NET assembly browser and decompiler supporting C# reconstruction, BAML decompilation, and ReadyToRun binaries.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[x64dbg](https://github.com)** for open-source x64/x32 dynamic debugging on Windows with extensive plugin and scripting support.
-
-- **[Binwalk](https://github.com)** for open-source firmware extraction, entropy analysis, and embedded file system carving.
-
-- **[ImHex](https://github.com)** for open-source hex editing, custom binary pattern language parsing, and data visualization.
-
-- **[Speakeasy](https://github.com)** and **[Unicorn Engine](https://github.com)** for CPU emulation and safe shellcode/malware execution without full OS overhead.
-
-- Many community **IDA MCP bridges**, **Binary Ninja AI plugins**, and **Decompiler-as-a-Service Docker images** for agentic reverse engineering pipelines.
-
-
-
-**Frameworks for building custom systems**: Combine **morluto/rea**, **Ghidra / GhidraMCP**, **Frida**, and **angr** with **CAPEv2** and **CAPA** for autonomous, evidence-backed static and dynamic binary analysis agents.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Always analyze untrusted binaries and malware samples inside isolated, air-gapped virtual machines or sandboxes (e.g., CAPEv2) to prevent host compromise.
-
-- Only reverse engineer software, firmware, and binaries that you own, have explicit authorization to audit, or are permitted to study under applicable interoperability and security research laws.
-
-
+</div>
 
 ---
 
+## 📖 Executive Summary & SEO Overview
 
+Welcome to the definitive hub for **AI-powered Reverse Engineering & Autonomous Binary Analysis Agents**. Modern software security analysis has transformed from purely manual disassembly into an agentic paradigm where **Large Language Models (LLMs)**, **Model Context Protocol (MCP)** bridges, and **dynamic binary instrumentation engines** collaborate to dissect native binaries (PE, ELF, Mach-O), firmware dumps, WebAssembly, and zero-day malware without source code.
 
-**Made for reverse engineers, malware analysts, vulnerability researchers, and AI security agent builders.**  
+Whether you are performing automated vulnerability discovery, firmware security vetting, CTF exploitation, or software supply chain audit, this directory provides a comprehensive benchmark comparing leading **enterprise SaaS platforms** and high-velocity **open-source security tooling**.
 
-Let's make binary analysis and reverse engineering faster, reproducible, and open.
+---
+
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Commercial Platforms](#️-saas--hosted-commercial-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architecture & custom Agent System Design](#️-architecture--custom-agent-system-design)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global **Binary Analysis and Software Reverse Engineering Market** is estimated at **$2.04 Billion** (as of 2024–2026) and is projected to expand to **$5.42 Billion** by 2032, advancing at a Compound Annual Growth Rate (**CAGR**) of **17.2%** (with the broader automated malware and supply chain analysis segment exceeding $12 Billion).
+
+The industry is **moderately fragmented**: entrenched disassembler and decompiler providers (e.g., Hex-Rays / IDA Pro, Vector 35 / Binary Ninja) dominate manual desktop reverse engineering, while high-velocity venture-backed security platforms (e.g., ReversingLabs, Intezer, Binarly, RevEng.AI) compete for automated cloud-scale triage and AI-driven firmware vetting. As manual binary reversing remains a severe talent bottleneck, the market is aggressively pivoting toward **AI agent-driven autonomous workflows**, multi-tool MCP servers, and continuous software bill of materials (SBOM/xBOM) validation.
+
+---
+
+## ☁️ SaaS & Hosted Commercial Platforms
+
+Below is a detailed comparison of prominent enterprise SaaS and cloud-enabled platforms for binary analysis, firmware security, and automated malware triage, sorted by company size (valuation / estimated annual revenue in descending order).
+
+| Company / Product | Company Size (Valuation / Revenue) | Starting Pricing Tier | Free Tier Limits / Free Trial Limits | Key Capabilities & Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[ReversingLabs (Spectra Analyze)](https://reversinglabs.com)** | **$340M+ Valuation** (~$75M–$80M ARR) | Starting tier from **$500/month** (Community+); Custom enterprise contracts start at ~$28,000/year | **14-day full-feature free trial** (Spectra Assure evaluation without credit card) & public Community lookup tier | High-speed static binary decomposition, Software Bill of Materials (xBOM) security, and file analysis across 4,800+ file formats. |
+| **[Hex-Rays (IDA Pro & Cloud)](https://hex-rays.com)** | **~$120M–$150M Valuation** (€20M+ Revenue, Acquired by Smartfin) | **$365/year** (IDA Home tier; IDA Pro starts at $1,999/year named license) | **Free forever plan (IDA Free)**: restricted to x86/x64 architecture only, cloud-based decompiler, strictly non-commercial use | Industry-standard commercial multi-architecture disassembler, interactive Lumina function database, and decompilers across 70+ ISAs. |
+| **[Intezer (Intezer Analyze)](https://intezer.com)** | **$80M+ Valuation** (~$11M ARR; $68M Total Funding) | Starting tier at **$399/month** (Advanced Triage); Custom Enterprise SOC quotes | **Free forever community plan**: **10 public file scans per month**; includes a 14-day introductory trial with up to 500 scans | Genetic code reuse detection, automated Autonomous SOC triage, malware family classification, and unpacker extraction. |
+| **[Binarly (Transparency Platform)](https://binarly.io)** | **~$50M–$100M Valuation** (~$6.8M ARR; $14.1M Total Funding) | Starting commercial Lite tier estimated at **$1,500/month** (Enterprise SaaS by quote) | **Free forever web tool (FwHunt.RUN)**: unlimited public web-based firmware/binary scans without registration; 14-day enterprise PoC trial | Deep firmware, UEFI/BIOS security, cryptographic key leak detection, and hardware supply chain vulnerability discovery. |
+| **[VMRay Analyzer](https://vmray.com)** | **~$45M–$60M Valuation** (~$25.5M Revenue; $28.9M Total Funding) | Starting entry cloud package at **€3,200/year** (~$3,500/year); Enterprise custom | **14-day proof-of-concept (PoC) enterprise trial** (upon sales application approval) with dedicated detonation quota | Agentless, hypervisor-level dynamic malware analysis evasion-resistant sandbox with automated threat verdicts. |
+| **[RevEng.AI](https://reveng.ai)** | **~$35M–$50M Valuation** ($20.6M Raised via NATO Innovation Fund & In-Q-Tel) | Enterprise subscription starting tier estimated at **$1,200/month** (Annual billing) | **14-day structured pilot trial** with sandbox API access (requires enterprise inquiry and verification) | Proprietary neural network (*BinNet*) for AI binary similarity, function boundary recovery, and cross-architecture matching. |
+| **[Binary Ninja Cloud (Vector 35)](https://binary.ninja)** | **~$20M–$30M Valuation** (Privately held, In-Q-Tel backed, ~$4M–$6M Revenue) | Non-commercial desktop license at **$299**; Commercial named license starts at **$1,799/year** | **Free forever plan (Binary Ninja Free Desktop & Cloud)**: restricted to x86, x86_64, ARMv7, ARMv8 architectures; no API or plugin automation | Advanced Intermediate Language tiers (LLIL, MLIL, HLIL), collaborative cloud sync, type inference, and native decompilation. |
+| **[JEB Decompiler (PNF Software)](https://pnfsoftware.com)** | **~$8M–$12M Valuation** (Privately held / bootstrapped, ~$2M–$3M Revenue) | **$1,200/year** (JEB Android) or **$140/month**; JEB Pro full suite at **$2,000/year** | **Free forever plan (JEB Community Edition / CE)**: limited to x86/x64 desktop binaries; Free demo version restricts decompilation output | Modular enterprise decompiler for Android APK/Dalvik, WebAssembly, Ethereum Smart Contracts, and embedded microcontrollers. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Explore the most powerful open-source disassemblers, headless decompiler bridges, dynamic instrumenters, and Model Context Protocol (MCP) servers for autonomous AI agents. Sorted by GitHub star counts (descending).
+
+| Project | GitHub Stars Badge | Description & Capabilities |
+| :--- | :---: | :--- |
+| **[morluto/rea](https://github.com/morluto/rea)** | [![Stars](https://img.shields.io/github/stars/morluto/rea?style=social&color=white)](https://github.com/morluto/rea/stargazers) | Open-source MCP server and CLI toolkit connecting AI coding agents (Claude Code, Codex, Cursor, Gemini CLI) to Ghidra, Hopper, and IDA Pro to reverse engineer native binaries with verifiable evidence. |
+| **[NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)** | [![Stars](https://img.shields.io/github/stars/NationalSecurityAgency/ghidra?style=social&color=white)](https://github.com/NationalSecurityAgency/ghidra/stargazers) | NSA's flagship open-source software reverse engineering (SRE) suite featuring multi-architecture decompiler, headless analysis scripting, and multi-user collaboration server. |
+| **[WerWolv/ImHex](https://github.com/WerWolv/ImHex)** | [![Stars](https://img.shields.io/github/stars/WerWolv/ImHex?style=social&color=white)](https://github.com/WerWolv/ImHex/stargazers) | Modern hex editor for reverse engineers, featuring custom pattern language engine, memory visualizer, data disassembler, and automated struct decoding. |
+| **[skylot/jadx](https://github.com/skylot/jadx)** | [![Stars](https://img.shields.io/github/stars/skylot/jadx?style=social&color=white)](https://github.com/skylot/jadx/stargazers) | Dex-to-Java decompiler providing both command-line and GUI interfaces for reverse engineering Android DEX, APK, and Smali bytecode into clean Java source code. |
+| **[x64dbg/x64dbg](https://github.com/x64dbg/x64dbg)** | [![Stars](https://img.shields.io/github/stars/x64dbg/x64dbg?style=social&color=white)](https://github.com/x64dbg/x64dbg/stargazers) | Open-source x64/x32 dynamic binary debugger for Windows, supporting TitanEngine, memory patching, scriptable automation, and an extensive plugin ecosystem. |
+| **[icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy)** | [![Stars](https://img.shields.io/github/stars/icsharpcode/ILSpy?style=social&color=white)](https://github.com/icsharpcode/ILSpy/stargazers) | Modern open-source .NET assembly browser and C# decompiler supporting PDB symbol generation, BAML resources, and cross-platform desktop inspection. |
+| **[radareorg/radare2](https://github.com/radareorg/radare2)** | [![Stars](https://img.shields.io/github/stars/radareorg/radare2?style=social&color=white)](https://github.com/radareorg/radare2/stargazers) | UNIX-like reverse engineering framework, command-line disassembler, hex editor, debugger, binary patching utility, and scriptable native shell. |
+| **[frida/frida](https://github.com/frida/frida)** | [![Stars](https://img.shields.io/github/stars/frida/frida?style=social&color=white)](https://github.com/frida/frida/stargazers) | Dynamic instrumentation toolkit enabling security analysts to inject custom JavaScript hooks into native apps across Windows, macOS, Linux, iOS, and Android. |
+| **[rizinorg/cutter](https://github.com/rizinorg/cutter)** | [![Stars](https://img.shields.io/github/stars/rizinorg/cutter?style=social&color=white)](https://github.com/rizinorg/cutter/stargazers) | Free, open-source Qt-based GUI for the Rizin reverse engineering framework, tightly integrated with the Ghidra decompiler and interactive control-flow graphs. |
+| **[ReFirmLabs/binwalk](https://github.com/ReFirmLabs/binwalk)** | [![Stars](https://img.shields.io/github/stars/ReFirmLabs/binwalk?style=social&color=white)](https://github.com/ReFirmLabs/binwalk/stargazers) | Fast tool for searching, analyzing, and extracting embedded firmware filesystem images, compressed headers, and bootloader payloads. |
+| **[LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP)** | [![Stars](https://img.shields.io/github/stars/LaurieWired/GhidraMCP?style=social&color=white)](https://github.com/LaurieWired/GhidraMCP/stargazers) | High-performance Model Context Protocol (MCP) server enabling LLMs and autonomous agents to query Ghidra, decompile functions, and trace cross-references. |
+| **[horsicq/Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy)** | [![Stars](https://img.shields.io/github/stars/horsicq/Detect-It-Easy?style=social&color=white)](https://github.com/horsicq/Detect-It-Easy/stargazers) | Programmatic binary file signature verifier and packer detector detecting compilers, obfuscators, and linkers for PE, ELF, and Mach-O files. |
+| **[unicorn-engine/unicorn](https://github.com/unicorn-engine/unicorn)** | [![Stars](https://img.shields.io/github/stars/unicorn-engine/unicorn?style=social&color=white)](https://github.com/unicorn-engine/unicorn/stargazers) | Lightweight, multi-architecture CPU emulator framework based on QEMU, supporting safe execution of isolated shellcode and disassembled instructions. |
+| **[angr/angr](https://github.com/angr/angr)** | [![Stars](https://img.shields.io/github/stars/angr/angr?style=social&color=white)](https://github.com/angr/angr/stargazers) | Powerful Python binary analysis framework combining static analysis with symbolic (concolic) execution for automated vulnerability triage and constraint solving. |
+| **[bethington/ghidra-mcp](https://github.com/bethington/ghidra-mcp)** | [![Stars](https://img.shields.io/github/stars/bethington/ghidra-mcp?style=social&color=white)](https://github.com/bethington/ghidra-mcp/stargazers) | Model Context Protocol bridge between AI assistants and local Ghidra headless scripts for automated symbol renaming and function summarization. |
+| **[mandiant/capa](https://github.com/mandiant/capa)** | [![Stars](https://img.shields.io/github/stars/mandiant/capa?style=social&color=white)](https://github.com/mandiant/capa/stargazers) | Open-source capability detection tool that automatically identifies capabilities and malicious behaviors in executable binaries using human-readable rules. |
+| **[rizinorg/rizin](https://github.com/rizinorg/rizin)** | [![Stars](https://img.shields.io/github/stars/rizinorg/rizin?style=social&color=white)](https://github.com/rizinorg/rizin/stargazers) | Portable, modern reverse engineering framework and binary analysis toolset focusing on usability, clean APIs, and scriptable instrumentation. |
+| **[kevoreilly/CAPEv2](https://github.com/kevoreilly/CAPEv2)** | [![Stars](https://img.shields.io/github/stars/kevoreilly/CAPEv2?style=social&color=white)](https://github.com/kevoreilly/CAPEv2/stargazers) | Automated malware analysis sandbox based on Cuckoo Sandbox, specialized in automatic payload unpacking, config extraction, and evasion handling. |
+| **[mandiant/speakeasy](https://github.com/mandiant/speakeasy)** | [![Stars](https://img.shields.io/github/stars/mandiant/speakeasy?style=social&color=white)](https://github.com/mandiant/speakeasy/stargazers) | Portable binary emulator designed to emulate Windows user-mode applications, kernel-mode drivers, and raw shellcode without virtual machines. |
+| **[CYB3RMX/Qu1cksc0pe](https://github.com/CYB3RMX/Qu1cksc0pe)** | [![Stars](https://img.shields.io/github/stars/CYB3RMX/Qu1cksc0pe?style=social&color=white)](https://github.com/CYB3RMX/Qu1cksc0pe/stargazers) | Multi-platform static malware analysis and binary triage framework analyzing Windows PE, Linux ELF, macOS Mach-O, and Android APK payloads. |
+| **[LING71671/open-reverselab](https://github.com/LING71671/open-reverselab)** | [![Stars](https://img.shields.io/github/stars/LING71671/open-reverselab?style=social&color=white)](https://github.com/LING71671/open-reverselab/stargazers) | AI-powered reverse engineering workstation application connecting autonomous LLM agents to Ghidra, Frida, and x64dbg via standardized MCP endpoints. |
+| **[guanyue91141/GhidraMCP-AI-rename](https://github.com/guanyue91141/GhidraMCP-AI-rename)** | [![Stars](https://img.shields.io/github/stars/guanyue91141/GhidraMCP-AI-rename?style=social&color=white)](https://github.com/guanyue91141/GhidraMCP-AI-rename/stargazers) | Ghidra MCP server specialized in AI-driven semantic variable, function renaming, and control-flow explanation. |
+| **[dnakov/frida-mcp](https://github.com/dnakov/frida-mcp)** | [![Stars](https://img.shields.io/github/stars/dnakov/frida-mcp?style=social&color=white)](https://github.com/dnakov/frida-mcp/stargazers) | MCP server giving autonomous AI agents live Frida instrumentation access to trace APIs, inspect memory, and hook functions on desktop and mobile. |
+| **[clearbluejar/pyghidra-mcp](https://github.com/clearbluejar/pyghidra-mcp)** | [![Stars](https://img.shields.io/github/stars/clearbluejar/pyghidra-mcp?style=social&color=white)](https://github.com/clearbluejar/pyghidra-mcp/stargazers) | Python-based Ghidra MCP server enabling Claude, Cursor, and ChatGPT agents to decompile binaries headlessly via PyGhidra. |
+| **[biniamf/ai-reverse-engineering](https://github.com/biniamf/ai-reverse-engineering)** | [![Stars](https://img.shields.io/github/stars/biniamf/ai-reverse-engineering?style=social&color=white)](https://github.com/biniamf/ai-reverse-engineering/stargazers) | Local, evidence-first static analysis workbench combining a web UI and LLM copilot with a headless Ghidra Docker service. |
+| **[gengstah/windbg-mcp](https://github.com/gengstah/windbg-mcp)** | [![Stars](https://img.shields.io/github/stars/gengstah/windbg-mcp?style=social&color=white)](https://github.com/gengstah/windbg-mcp/stargazers) | Open-source Model Context Protocol server exposing WinDbg DbgEng debugging sessions, crash dumps, and register inspection to AI agents. |
+| **[tuna1999/dnspy-mcp](https://github.com/tuna1999/dnspy-mcp)** | [![Stars](https://img.shields.io/github/stars/tuna1999/dnspy-mcp?style=social&color=white)](https://github.com/tuna1999/dnspy-mcp/stargazers) | Model Context Protocol server for dnSpyEx enabling AI coding assistants to decompile and inspect .NET bytecode directly. |
+
+---
+
+## 🛠️ Architecture & Custom Agent System Design
+
+When architecting a production autonomous reverse engineering pipeline, security engineers combine specialized layers into an integrated agent harness:
+
+```mermaid
+graph TD
+    A["Raw Binary / Firmware / Malware Sample"] --> B["Triage Layer (Detect It Easy / CAPA / Binwalk)"]
+    B --> C["Static SRE Disassembler (Ghidra / IDA Pro / Binary Ninja)"]
+    B --> D["Dynamic Sandbox & Emulation (CAPEv2 / Speakeasy / Frida)"]
+    C --> E["Model Context Protocol (MCP) Bridge"]
+    D --> E
+    E --> F["Autonomous AI Reasoning Agent (Claude Code / Codex / ReA)"]
+    F --> G["Decompiled Code Explanation & Symbol Renaming"]
+    F --> H["Automated Vulnerability & Malware Triage Report"]
+```
+
+---
+
+## 🤝 How to Contribute
+
+We actively welcome contributions to expand and refine this ecosystem directory!
+
+1. 🍴 **Fork the repository** to your GitHub profile.
+2. 🌿 **Create a new branch**: `git checkout -b feature/add-new-agent-tool`.
+3. 📝 **Add or update entries** in `README.md` following the tabular layout. Ensure:
+   - Tool name, official URL, and exact GitHub repository path are verified.
+   - For SaaS tools: include starting tier pricing and specific free plan/trial limits.
+   - For Open-Source tools: include the standard social stargazers badge.
+4. 🚀 **Commit your changes**: `git commit -m 'Add ToolName to awesome reverse engineering agents'`.
+5. 📬 **Open a Pull Request** with a brief summary explaining the tool's relevance to binary analysis or AI agents.
+
+---
+
+## 💖 Support
+
+If you find this curated collection helpful for your research, security investigations, or daily reverse engineering workflow, please consider showing your support:
+
+- ⭐ **Star this repository** to help other researchers discover it!
+- 🍴 **Fork & share** with your cybersecurity and reverse engineering community.
+- ☕ **Buy me a coffee & support ongoing maintenance:** Visit the [Sponsor Dashboard on GitHub](https://github.com/sponsors/ishandutta2007).
+
+Your sponsorship directly funds ongoing tracking of the AI binary analysis ecosystem!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Reverse-Engineering-Binary-Analysis-Agents&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Reverse-Engineering-Binary-Analysis-Agents&type=date&legend=top-left)
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Reverse-Engineering-Binary-Analysis-Agents&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Reverse-Engineering-Binary-Analysis-Agents&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This curated list is maintained for educational, defensive cybersecurity, and security research purposes only.
+- Always analyze unknown binaries, suspected malware, and zero-day samples inside isolated virtual machines, network-isolated sandboxes (e.g., CAPEv2), or air-gapped test environments.
+- Only perform reverse engineering on software and firmware that you own, have explicit authorization to test, or are legally permitted to analyze under applicable research exemptions and copyright laws.
+
+---
+
+<div align="center">
+<b>Built with ❤️ for reverse engineers, malware analysts, CTF players, and AI security researchers worldwide.</b>
+</div>
