@@ -74,9 +74,9 @@ Below is a detailed comparison of prominent enterprise SaaS and cloud-enabled pl
 
 ## 🔓 Open-Source GitHub Projects
 
-Explore the most powerful open-source disassemblers, headless decompiler bridges, dynamic instrumenters, and Model Context Protocol (MCP) servers for autonomous AI agents. Sorted by GitHub star counts (descending).
+Explore the most powerful open-source disassemblers, headless decompiler bridges, dynamic instrumenters, and Model Context Protocol (MCP) servers for autonomous AI agents. Sorted by GitHub Stars_Counts (descending).
 
-| Project | GitHub Stars Badge | Description & Capabilities |
+| Project | GitHub_Stars_Badge | Description & Capabilities |
 | :--- | :---: | :--- |
 | **[morluto/rea](https://github.com/morluto/rea)** | [![Stars](https://img.shields.io/github/stars/morluto/rea?style=social&color=white)](https://github.com/morluto/rea/stargazers) | Open-source MCP server and CLI toolkit connecting AI coding agents (Claude Code, Codex, Cursor, Gemini CLI) to Ghidra, Hopper, and IDA Pro to reverse engineer native binaries with verifiable evidence. |
 | **[NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)** | [![Stars](https://img.shields.io/github/stars/NationalSecurityAgency/ghidra?style=social&color=white)](https://github.com/NationalSecurityAgency/ghidra/stargazers) | NSA's flagship open-source software reverse engineering (SRE) suite featuring multi-architecture decompiler, headless analysis scripting, and multi-user collaboration server. |
